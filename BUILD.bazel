@@ -6,6 +6,6 @@ cc_library(
     includes = ["include"],
     hdrs = glob(["include/boost/**/*.hpp"]),
     deps = [
-        "@boost//config",
+        "@boost//libs/config",
     ],
 )

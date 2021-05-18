@@ -11,7 +11,7 @@ cc_test(
     srcs = ["assert_msg_test2.cpp"],
     deps = [
         "//:assert",
-        "@boost//core",
+        "@boost//libs/core",
     ],
 )
 
@@ -20,7 +20,7 @@ cc_test(
     srcs = ["assert_test.cpp"],
     deps = [
         "//:assert",
-        "@boost//core",
+        "@boost//libs/core",
     ],
 )
 
@@ -29,7 +29,7 @@ cc_test(
     srcs = ["assert_test2.cpp"],
     deps = [
         "//:assert",
-        "@boost//core",
+        "@boost//libs/core",
     ],
 )
 
@@ -44,7 +44,7 @@ cc_test(
     srcs = ["current_function_test2.cpp"],
     deps = [
         "//:assert",
-        "@boost//core",
+        "@boost//libs/core",
     ],
 )
 
@@ -59,7 +59,7 @@ cc_test(
     srcs = ["source_location_test.cpp"],
     deps = [
         "//:assert",
-        "@boost//core",
+        "@boost//libs/core",
     ],
 )
 
@@ -68,7 +68,7 @@ cc_test(
     srcs = ["source_location_test2.cpp"],
     deps = [
         "//:assert",
-        "@boost//core",
+        "@boost//libs/core",
     ],
 )
 
@@ -77,7 +77,7 @@ cc_test(
     srcs = ["source_location_test3.cpp"],
     deps = [
         "//:assert",
-        "@boost//core",
+        "@boost//libs/core",
     ],
 )
 
@@ -86,6 +86,6 @@ cc_test(
     srcs = ["verify_test.cpp"],
     deps = [
         "//:assert",
-        "@boost//core",
+        "@boost//libs/core",
     ],
 )

@@ -5,7 +5,7 @@ cc_test(
     srcs = ["assert_exp_test.cpp"],
     deps = [
         "//:assert",
-        "@boost//core",
+        "@boost//libs/core",
     ],
 )
 
@@ -14,7 +14,7 @@ cc_test(
     srcs = ["assert_msg_exp_test.cpp"],
     deps = [
         "//:assert",
-        "@boost//core",
+        "@boost//libs/core",
     ],
 )
 
@@ -23,7 +23,7 @@ cc_test(
     srcs = ["verify_exp_test.cpp"],
     deps = [
         "//:assert",
-        "@boost//core",
+        "@boost//libs/core",
     ],
 )
 
@@ -32,6 +32,6 @@ cc_test(
     srcs = ["verify_msg_exp_test.cpp"],
     deps = [
         "//:assert",
-        "@boost//core",
+        "@boost//libs/core",
     ],
 )
